@@ -14,7 +14,7 @@ We are trying to make this better and more secure search by including fully trai
 #### Detailed Architecture
 ![](model_images/detailed_arc_2.png)
 
-### Text Analysis
+## Text Analysis
 * Fetching text from web page
 * Preprocessing
     * Text
@@ -25,7 +25,7 @@ We are trying to make this better and more secure search by including fully trai
   * Most Frequent words
 * Spam Analysis
 
-### Image Analysis
+## Image Analysis
 * Fetching images from web page
 * Neural network model
 * Probability scores
@@ -34,3 +34,23 @@ We are trying to make this better and more secure search by including fully trai
      ![](model_images/bin_1.PNG)
      ![](model_images/bin_2.PNG)
      ![](model_images/bin_3.PNG)
+
+## Integration
+* The spam scores of text and images are integrated
+* The web page will be categorized as spam or not spam based on threshold spam score 
+* The spam message will prompted to user
+
+## Results
+* ![](model_images/out_1.PNG)
+* ![](model_images/out_2.PNG)
+* ![](model_images/out_3.PNG)
+* ![](model_images/out_4.PNG)
+
+## Conclusion and Future work
+* User can browse in safe internet
+* Develop a add-on for a browser.
+* Ai model for Text summarization
+* Ai model For  Illegal object detection.
+
+
+
